@@ -1,0 +1,5 @@
+streamlit
+google-generativeai
+langgraph
+langchain-community
+duckduckgo-search

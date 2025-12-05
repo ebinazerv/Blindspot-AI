@@ -1,0 +1,13 @@
+# Ignore the virtual environment
+venv/
+.venv/
+env/
+
+# Ignore system files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore secrets (CRITICAL)
+.env
+api_keys.txt
