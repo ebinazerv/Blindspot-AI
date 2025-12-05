@@ -15,6 +15,10 @@ Most entrepreneurs fall in love with their ideas and ignore risks. Blindspot AI 
 * **Search:** DuckDuckGo API
 * **Frontend:** Streamlit (with Custom CSS)
 
+## The "Why"
+
+   ''' I didn't want to build a simple Chatbot. I wanted to build a **Decision Support System**. By using LangGraph, I created a cyclic workflow where data is             verified before being analyzed, ensuring high-quality, grounded outputs.'''
+
 ## 🏗️ Architecture Flow
 This system uses a **StateGraph** workflow to ensure data quality before analysis.
 
@@ -30,8 +34,3 @@ graph TD
     style B fill:#00d2ff,stroke:#333,stroke-width:2px,color:black
     style D fill:#ff9900,stroke:#333,stroke-width:2px,color:black
     style E fill:#28a745,stroke:#333,stroke-width:2px,color:black
-
-## The "Why"
-
-   ''' I didn't want to build a simple Chatbot. I wanted to build a **Decision Support System**. By using LangGraph, I created a cyclic workflow where data is             verified before being analyzed, ensuring high-quality, grounded outputs.'''
-
