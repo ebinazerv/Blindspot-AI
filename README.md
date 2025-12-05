@@ -31,5 +31,6 @@ graph TD
     style D fill:#ff9900,stroke:#333,stroke-width:2px,color:black
     style E fill:#28a745,stroke:#333,stroke-width:2px,color:black
 
-## 🧠 The "Why"
+## The "Why"
+
 I didn't want to build a simple Chatbot. I wanted to build a **Decision Support System**. By using LangGraph, I created a cyclic workflow where data is verified before being analyzed, ensuring high-quality, grounded outputs.
